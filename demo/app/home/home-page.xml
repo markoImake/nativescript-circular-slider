@@ -1,0 +1,17 @@
+<Page class="page"
+    navigatingTo="onNavigatingTo" 
+    xmlns="http://schemas.nativescript.org/tns.xsd"
+    xmlns:slider="nativescript-circular-slider">
+    
+    <ActionBar class="action-bar">
+        <Label class="action-bar-title" text="Home"></Label>
+    </ActionBar>
+
+    <GridLayout>
+        <GridLayout id="main" backgroundColor="gray">
+            <slider:CircularSliderView height="400" width="400" loaded="sliderLoaded" />
+                <!-- Add your page content here -->
+        </GridLayout>
+        <!-- Add your page content here -->
+    </GridLayout>
+</Page>

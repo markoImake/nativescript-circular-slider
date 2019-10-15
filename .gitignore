@@ -1,0 +1,14 @@
+demo/platforms/*
+demo/hooks/*
+demo/node_modules
+src/platforms/*
+src/hooks/*
+src/node_modules
+.tmp_backup
+.vscode
+app/release-info.json
+releases/*
+demo/tsc/*
+dist/*
+**/.DS_Store
+.migration_backup
